@@ -1,0 +1,144 @@
+img {
+
+  padding: 0;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  position:sticky;
+  top:0;
+}
+h1 {
+ font-family: 'Oswald';
+ font-style: bold;
+ font-size: 83;
+ text-transform:uppercase;
+ padding:0px;
+ margin:0;
+}
+body{
+  padding:0;
+  margin:0;
+  border:0;
+  background-color: #9fd29f;
+  font-family: 'Raleway';
+
+}
+
+h2 {
+  font-family:'Montserrat';
+  font-size: 23;
+  font-style:light;
+  text-transform: uppercase;
+  margin:0;
+
+}
+
+p {
+  font-family: 'Raleway';
+  padding:1.2em;
+
+}
+
+hr {
+  color:#ccc;
+  border:0;
+  border-top: 1px solid #ccc;
+}
+
+blockquote {
+  font-family: "Raleway"
+}
+
+nav {
+  overflow:hidden;
+  position: fixed;
+  top:0;
+  transition: top 0.3s;
+  width: 100%;
+  z-index: 100;
+}
+nav ul {
+
+  Background-color:#73BE73;
+  overflow:hidden;
+  font-size: 1.2em;
+  margin:0;
+
+}
+nav ul li {
+  display:inline;
+  float:left;
+
+
+}
+
+nav ul li a:hover {
+  background-color: #ccc;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding: 20px 20px;
+  border-right: 1px solid #ccc;
+  display: block;
+}
+
+nav ul .active {
+  background-color: #333;
+  color:#73BE73;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.PostHeader{
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+  background-color:#ded;
+
+}
+.BlogBody {
+  margin:auto;
+  width:75%;
+
+}
+.FirstPost {
+  background-color: #ded;
+  color: #222;
+  margin: auto;
+  width: 100%;
+}
+.IntroPhoto{
+}
+.HeaderText{
+  position:sticky;
+  top:0;
+  z-index: 100000000;
+  padding:1.2em;
+  background-color: inherit;
+
+}
